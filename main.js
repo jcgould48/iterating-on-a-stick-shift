@@ -1,4 +1,6 @@
 const makeDino = function() {
+  return Object.entries(expectedDino);
+  
 }
 
 const makeSingular = function() {
