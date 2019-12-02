@@ -1,6 +1,10 @@
-const makeDino = function() {
-  return Object.entries(expectedDino);
-  
+const makeDino = function(species, period, carnivore, extinct=false) {
+  return {
+    species,
+    period,
+    carnivore,
+    extinct,
+  }
 }
 
 const makeSingular = function() {
